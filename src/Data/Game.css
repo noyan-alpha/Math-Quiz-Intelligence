@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(88, 214, 88);
+    height: 100vh;
+}
+
+.aboutme {
+    padding: 15px;
+    background-color: rgb(57, 102, 104);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+    color: rgb(221, 238, 221);
+}
+
+a {
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 30px;
+    padding-top: 2%;
+}
+
+.brief {
+    padding: 10px;
+    background-color: rgba(0, 128, 0, 0.74);
+    color: greenyellow;
+}
+
+.Expression {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.expression {
+    padding: 10px;
+    background-color: rgba(255, 235, 205, 0.404);
+    border-radius: 4px;
+    color: rgb(47, 70, 50);
+}
+
+.options {
+    display: flex;
+    gap: 40px;
+    margin-inline: 15%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    padding: 7px;
+    background-color: rgba(14, 182, 104, 0.849);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box input {
+    width: 20px;
+    height: 20px;
+}
+
+.Submit {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 50%;
+}
+
+.Submit button {
+    border: none;
+    padding: 7px;
+    border-radius: 6px;
+    background-color: rgb(13, 167, 116);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: large;
+}
+
+.score {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 40px;
+    color: rgb(52, 138, 3);
+    padding: 20px;
+}
+
+.score div {
+    background-color: rgb(238, 2, 2);
+    color: beige;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.result {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 30px;
+}
+
+.btn button {
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: rgba(128, 128, 128, 0.575);
+    color: greenyellow;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.wrong {
+    color: rgb(199, 8, 8);
+    font-weight: 800;
+}
+
+.right {
+    color: rgb(6, 133, 184);
+    font-weight: 800;
+}
+
+.under {
+    display: flex;
+    flex-direction: column;
+    color: rgb(5, 105, 30);
+}
+
+.report {
+    width: 300px;
+    height: 250px;
+    overflow: auto;
+    gap: 10;
+    background-color: rgba(4, 121, 13, 0.829);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.reportBox {
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+}
+
+.boxexpression {
+    color: beige;
+}
+
+.boxanswer {
+    color: lightskyblue;
+}
+
+.boxstatus {
+    color: coral;
+}
+
+
+
+
+@media (max-width: 520px) {
+    .body {
+        font-size: 20px;
+    }
+
+    .aboutme {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 470px) {
+    .aboutme div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .result div {
+        gap: 0;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 414px) {
+    .body {
+        font-size: 30px;
+    }
+
+    .aboutme {
+        font-size: 15px;
+    }
+
+    .box input {
+        width: 15px;
+        height: 15px;
+    }
+
+    .result {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .body {
+        font-size: 15px;
+    }
+
+    .aboutme {
+        font-size: 15px;
+    }
+
+    .box input {
+        width: 15px;
+        height: 15px;
+    }
+}

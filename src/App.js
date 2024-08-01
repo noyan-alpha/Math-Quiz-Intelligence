@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Game from './Data/Game'
+import Result from './Data/Result';
+import { useState } from 'react';
+
 
 function App() {
+  let [score, setscore] = useState(0);
+  let [remarks, setremarks] = useState('');
+  let [result, setresult] = useState('')
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Routes>
+          <Route element={<Game setscore={setscore} setremarks={setremarks} setresult={setresult} score={score} />} path='/' />
+          <Route element={<Result score={score} remarks={remarks} result={result} setscore={setscore} setremarks={setremarks} />} path='/result' />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
