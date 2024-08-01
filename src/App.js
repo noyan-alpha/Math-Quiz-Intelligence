@@ -18,6 +18,7 @@ function App() {
           <Route element={<Result score={score} remarks={remarks} result={result} setscore={setscore} setremarks={setremarks} />} path='/result' />
         </Routes>
       </BrowserRouter>
+      //change syntax
     </div>
   );
 }
