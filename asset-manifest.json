@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/math-quiz-intelligence/static/css/main.f7cea22e.css",
-    "main.js": "/math-quiz-intelligence/static/js/main.066f358d.js",
-    "static/js/453.64512fd7.chunk.js": "/math-quiz-intelligence/static/js/453.64512fd7.chunk.js",
-    "index.html": "/math-quiz-intelligence/index.html",
-    "main.f7cea22e.css.map": "/math-quiz-intelligence/static/css/main.f7cea22e.css.map",
-    "main.066f358d.js.map": "/math-quiz-intelligence/static/js/main.066f358d.js.map",
-    "453.64512fd7.chunk.js.map": "/math-quiz-intelligence/static/js/453.64512fd7.chunk.js.map"
+    "main.css": "/Math-Quiz-Intelligence/static/css/main.f7cea22e.css",
+    "main.js": "/Math-Quiz-Intelligence/static/js/main.8667170b.js",
+    "static/js/453.64512fd7.chunk.js": "/Math-Quiz-Intelligence/static/js/453.64512fd7.chunk.js",
+    "index.html": "/Math-Quiz-Intelligence/index.html",
+    "main.f7cea22e.css.map": "/Math-Quiz-Intelligence/static/css/main.f7cea22e.css.map",
+    "main.8667170b.js.map": "/Math-Quiz-Intelligence/static/js/main.8667170b.js.map",
+    "453.64512fd7.chunk.js.map": "/Math-Quiz-Intelligence/static/js/453.64512fd7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f7cea22e.css",
-    "static/js/main.066f358d.js"
+    "static/js/main.8667170b.js"
   ]
 }
